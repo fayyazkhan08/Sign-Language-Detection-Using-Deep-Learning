@@ -1,10 +1,3 @@
-![Stars](https://img.shields.io/github/stars/harshbg/Sign-Language-Interpreter-using-Deep-Learning.svg?style=social)
-![Forks](https://img.shields.io/github/forks/harshbg/Sign-Language-Interpreter-using-Deep-Learning.svg?style=social)
-![GitHub contributors](https://img.shields.io/github/contributors/harshbg/Sign-Language-Interpreter-using-Deep-Learning.svg)
-![Language](https://img.shields.io/github/languages/top/harshbg/Sign-Language-Interpreter-using-Deep-Learning.svg)
-[![GitHub](https://img.shields.io/github/license/harshbg/Sign-Language-Interpreter-using-Deep-Learning.svg)](https://choosealicense.com/licenses/mit)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fharshbg%2FSign-Language-Interpreter-using-Deep-Learning&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-
 # Sign Language Interpreter using Deep Learning
 
 ## Table of contents
@@ -43,8 +36,8 @@ This will help you in installing all the libraries required for the project.
 ## Process
 
 - Run `set_hand_histogram.py` to set the hand histogram for creating gestures.
-- Once you get a good histogram, save it in the code folder, or you can use the histogram created by us that can be found [here](https://github.com/harshbg/Sign-Language-Interpreter-using-Deep-Learning/blob/master/Code/hist).
-- Added gestures and label them using OpenCV which uses webcam feed. by running `create_gestures.py` and stores them in a database. Alternately, you can use the gestures created by us [here](https://github.com/harshbg/Sign-Language-Interpreter-using-Deep-Learning/tree/master/Code).
+- Once you get a good histogram, save it in the code folder, or you can use the histogram created by us that can be found [here](https://github.com/fayyazkhan08/Sign-Language-Detection-Using-Deep-Learning/blob/master/Code/hist).
+- Added gestures and label them using OpenCV which uses webcam feed. by running `create_gestures.py` and stores them in a database. Alternately, you can use the gestures created by us [here](https://github.com/fayyazkhan08/Sign-Language-Detection-Using-Deep-Learning/tree/master/Code).
 - Add different variations to the captured gestures by flipping all the images by using `Rotate_images.py`.
 - Run `load_images.py` to split all the captured gestures into training, validation and test set.
 - To view all the gestures, run `display_gestures.py` .
